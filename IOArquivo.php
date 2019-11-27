@@ -2,9 +2,9 @@
 
 class IOArquivo
 {
-    private filePath = __DIR__ . '/database.json';
+    private $filePath = __DIR__ . 'database.json';
 
-    public function Leitor()
+    public function leitor()
     {
         if (file_exists($this->filePath))
         {
@@ -14,7 +14,7 @@ class IOArquivo
         }
     }
 
-    public function Escritor()
+    public function escritor()
     {
         if (empty($arr))
         {

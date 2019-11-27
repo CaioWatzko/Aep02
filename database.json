@@ -1,9 +1,13 @@
 {
-    "01" : {
+    "Usuario" : {
         "nome" : Mario,
         "email" : mario.ma@gmail.com,
         "senha" 123; 
     },
 
-    
+    "Usuario" : {
+        "nome" : Joaquina,
+        "email" : joaquina@gmail.com,
+        "senha" 321; 
+    },
 }
